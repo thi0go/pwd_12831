@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHMTL 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reservation Hotel Room</title>
+  </head>
+  <body>
+    <h1>Reservation Hotel Room</h1>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Personal Date</legend>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="name">1. Name</label><br />
+            <input type="text" id="name" name="name" size="30" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="gender">2. Gender</label><br />
+            <input type="text" id="gender" name="gender" size="30" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="email">3. Email Address</label><br />
+            <input type="email" id="email" name="email" size="30" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="telp">4. Telp Number</label><br />
+            <input type="number" id="telp" name="telp" style="width: 205px" />
+          </td>
+        </tr>
+      </fieldset>
+
+      <fieldset>
+        <legend>Reservation Room Form</legend>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="rName">1. Reservation Name</label><br />
+            <input type="text" id="rName" name="rName" size="30" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="bookingDate">2. Booking Date</label><br />
+            <input
+              type="date"
+              id="bookingDate"
+              name="bookingDate"
+              style="width: 210px"
+            />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="room">3. Room Type</label><br />
+            <select name="room" id="room" style="width: 215px">
+              <option value="deluxe">Deluxe</option>
+              <option value="luxury">Luxury</option>
+              <option value="vip">VIP</option>
+            </select>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="bed">4. Bed Type</label><br />
+            <select name="bed" id="bed" style="width: 215px">
+              <option value="single">Single Room</option>
+              <option value="double">Double Room</option>
+              <option value="king">King Room</option>
+            </select>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="breakfast">5. Breakfast</label><br />
+            <input type="radio" id="with" name="breakfast" value="with" />
+            <label for="pria">With Breakfast</label>
+            <input type="radio" id="without" name="breakfast" value="without" />
+            <label for="wanita">Without Breakfast</label>
+          </td>
+        </tr>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment</legend>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="checkIn">1. Check in date</label><br />
+            <input
+              type="date"
+              id="checkIn"
+              name="checkIn"
+              style="width: 210px"
+            />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="checkOut">2. Check out date</label><br />
+            <input
+              type="date"
+              id="checkOut"
+              name="checkOut"
+              style="width: 210px"
+            />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td colspan="2">
+            <label for="payment">3. Payment Method</label><br />
+            <select name="payment" id="payment" style="width: 215px">
+              <option value="cash">Cash</option>
+              <option value="qris">QRIS</option>
+              <option value="va">Virtual Account</option>
+            </select>
+          </td>
+        </tr>
+      </fieldset>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
